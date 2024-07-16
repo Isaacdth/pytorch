@@ -119,9 +119,7 @@ def as_nested_tensor(
 
             from torch.nested._internal.nested_tensor import nested_view_from_values_offsets
 
-            return nested_view_from_values_offsets(
-                values, offsets, min_seqlen=seq_len, max_seqlen=seq_len
-            )
+            return nested_view_from_values_offsets(values, offsets)
         else:
             from torch.nested._internal.nested_tensor import jagged_from_list
 
@@ -385,13 +383,6 @@ Example::
     >>> torch.equal(c, values[3:5, :])
     True
     """
-    from torch.fx._symbolic_trace import is_fx_tracing
-    if is_fx_tracing():
-        raise RuntimeError(
-            "torch.nested.nested_tensor_from_jagged does not support tracing with fx.symbolic_trace. "
-            "Use fx.wrap to wrap the function that calls nested_tensor_from_jagged."
-        )
-
     if offsets is None:
         if lengths is None:
             raise RuntimeError(
