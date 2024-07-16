@@ -27,6 +27,7 @@ from torch._prims_common import DeviceLikeType
 from torch.nn.parameter import Parameter
 from torch.utils._python_dispatch import is_traceable_wrapper_subclass
 from torch.utils.hooks import BackwardHook, RemovableHandle
+from typing import Union, Optional, List, overload
 
 
 __all__ = [
