@@ -16,8 +16,8 @@
     url = https://github.com/google/benchmark.git
 [submodule "third_party/protobuf"]
     ignore = dirty
-	path = third_party/protobuf
-	url = https://github.com/protocolbuffers/protobuf.git
+    path = third_party/protobuf
+    url = https://github.com/protocolbuffers/protobuf.git
 [submodule "third_party/NNPACK"]
     ignore = dirty
     path = third_party/NNPACK
@@ -48,7 +48,7 @@
     url = https://github.com/pytorch/cpuinfo.git
 [submodule "third_party/python-peachpy"]
     ignore = dirty
-    path = third_party/peachPy
+    path = third_party/python-peachPy
     url = https://github.com/malfet/PeachPy.git
 [submodule "third_party/onnx"]
     ignore = dirty
@@ -56,7 +56,7 @@
     url = https://github.com/onnx/onnx.git
 [submodule "third_party/sleef"]
     ignore = dirty
-	path = third_party/sleef
+    path = third_party/sleef
 	url = https://github.com/shibatch/sleef.git
 [submodule "third_party/ideep"]
     ignore = dirty
@@ -64,12 +64,12 @@
     url = https://github.com/intel/ideep
 [submodule "third_party/nccl/nccl"]
     ignore = dirty
-	path = third_party/nccl/nccl
+    path = third_party/nccl/nccl
 	url = https://github.com/NVIDIA/nccl.git
 [submodule "third_party/gemmlowp/gemmlowp"]
     ignore = dirty
-	path = third_party/gemmlowp/gemmlowp
-	url = https://github.com/google/gemmlowp.git
+    path = third_party/gemmlowp/gemmlowp
+    url = https://github.com/google/gemmlowp.git
 [submodule "third_party/fbgemm"]
     ignore = dirty
     path = third_party/fbgemm
@@ -92,8 +92,8 @@
     url = https://github.com/fmtlib/fmt.git
 [submodule "third_party/tensorpipe"]
     ignore = dirty
-	path = third_party/tensorpipe
-	url = https://github.com/pytorch/tensorpipe.git
+    path = third_party/tensorpipe
+    url = https://github.com/pytorch/tensorpipe.git
 [submodule "third_party/cudnn_frontend"]
 	path = third_party/cudnn_frontend
 	url = https://github.com/NVIDIA/cudnn-frontend.git
@@ -102,7 +102,7 @@
     url = https://github.com/pytorch/kineto
 [submodule "third_party/pocketfft"]
 	path = third_party/pocketfft
-	url = https://github.com/mreineck/pocketfft.git
+	url = https://github.com/mreineck/pocketfft
 [submodule "third_party/ittapi"]
 	path = third_party/ittapi
 	url = https://github.com/intel/ittapi.git
@@ -128,6 +128,3 @@
 	path = third_party/cpp-httplib
 	url = https://github.com/yhirose/cpp-httplib.git
 	branch = v0.15.3
-[submodule "third_party/FXdiv"]
-	path = third_party/FXdiv
-	url = https://github.com/Maratyszcza/FXdiv.git
